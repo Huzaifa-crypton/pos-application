@@ -1,0 +1,45 @@
+.Email , .Password , .login-btn{
+    width: 100%;
+}
+.loginPanel h1{
+    font-size: 3rem;
+}
+Link :hover{
+    cursor: pointer;
+}
+.loginPanel{
+    display:flex ;
+    justify-content:center ;
+    align-items:center ; 
+    min-height:100vh;
+    width:100vw;
+    flex-direction: column;
+}
+.loginGrid{
+    justify-content : center;
+    align-items : center; 
+}
+.spacingItem{
+    display :flex; justify-content:center;
+}
+.loginImage{
+    object-fit:contain;
+    width: 100%;
+    
+}
+
+.loginInput{
+
+}
+.imageItem{
+    min-width: 450px;
+}
+
+@media (max-width:900px) {
+    .imageItem{
+        max-height: 50vh;
+    }
+    .loginImage{
+        max-height: 50vh;
+    }
+}
